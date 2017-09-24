@@ -25,7 +25,36 @@ a {
   color: black;
 }
 
+img {
+  align-content: center;
+}
+
+.gray-text {
+  color: darkgray; 
+}
+
+b {
+  color: black;
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
+header,
+footer,
+.gray-bg {
+  background: rgba(235, 235, 235, .2);
+}
+
+footer {
+  border-top: solid lightgrey 1px; 
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
