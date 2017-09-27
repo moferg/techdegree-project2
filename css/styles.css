@@ -1,8 +1,26 @@
+/* Nav Bar */
+
 .main-nav li {
   text-transform: uppercase;
   list-style: none;
   text-align: center;
 }
+
+ul {
+  padding-left: 0px;
+}
+
+.main-nav li a {
+  width: 90%;
+  background-color: white;
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Element Selectors */
 
 h1, h2, h3, li a {
   text-align: center;
@@ -34,10 +52,6 @@ img {
   margin: auto;
 }
 
-.gray-text {
-  color: darkgray; 
-}
-
 b {
   color: black;
 }
@@ -57,6 +71,12 @@ footer {
   margin-top: 0px;
 }
 
+/* Class Selectors */
+
+.gray-text {
+  color: darkgray; 
+}
+
 .align-left {
   text-align: left;
 }
@@ -74,21 +94,53 @@ footer {
   width: 200px;
 }
 
-ul {
-  padding-left: 0px;
-}
-
-.main-nav li a {
-  width: 90%;
-  background-color: white;
-  display: block;
-  margin-bottom: 10px;
-  padding: 15px 0px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .description {
   margin-top: 15px;
   margin-bottom: 25px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+  header {
+    height: 325px;
+  }
+    
+  .main-nav {
+    align-content: center;
+    text-align: center;
+  }
+  
+  .main-nav li {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .main-nav li a {
+    background: transparent;
+  }
+  
+  p {
+    padding-bottom: 0px;
+  }
+  
+  .description {
+    text-align: left;
+  }
+  
+  .profile {
+    float: right;
+    width: 250px;
+  }
+  
+  .portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6 {
+    width: 50%;
+    height: 400px;
+    float: left;
+  }
+  
+  .gray-bg {
+    padding-bottom: 15px;
+  }
 }
