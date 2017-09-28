@@ -152,3 +152,68 @@ footer {
     padding-bottom: 15px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+    header {
+    height: 325px;
+  }
+  
+  #home {
+    text-align: left;
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  
+  .main-nav {
+    float: right;
+    align-content: right;
+    text-align: center;
+  }
+  
+  .main-nav li {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .main-nav li a {
+    background: transparent;
+  }
+  
+  p {
+    padding-bottom: 0px;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+  }
+  
+  .description {
+    text-align: left;
+    padding-left: 5%;
+  }
+  
+  .align-left {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .profile {
+    float: right;
+    width: 250px;
+    align-content: right;
+  }
+  
+  .portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6 {
+    width: 30%;
+    height: 400px;
+    float: left;
+  }
+  
+  .gray-bg {
+    padding-bottom: 15px;
+  }
+  
+  .skills {
+    clear: both;
+  }
+}
