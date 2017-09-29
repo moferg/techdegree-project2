@@ -167,14 +167,15 @@ footer {
   
   .main-nav {
     float: right;
-    align-content: right;
     text-align: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
   }
   
   .main-nav li {
     display: inline-block;
     text-align: center;
-    align-content: center;
   }
   
   .main-nav li a {
@@ -199,14 +200,18 @@ footer {
   
   .profile {
     float: right;
-    width: 250px;
+    width: 300px;
     align-content: right;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   
   .portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6 {
     width: 30%;
     height: 400px;
     float: left;
+    text-align: center;
+    padding-left: 20px;
   }
   
   .gray-bg {
